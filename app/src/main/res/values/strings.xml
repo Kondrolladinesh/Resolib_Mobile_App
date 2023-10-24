@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ResoLib</string>
+    <string name="resolib">ResoLib</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="already_registered_login_here">Already Registered ? Login Here</string>
+    <string name="login_here">login_here</string>
+    <string name="already_registered">already_registered</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="upload1">Upload</string>
+    <string name="enter_your_file_name">Enter your file name.</string>
+    <string name="upload">Upload</string>
+    <string-array name="languages">
+        <item>BTech</item>
+        <item>BDes</item>
+        <item>BBA</item>
+        <item>Masters</item>
+    </string-array>
+</resources>

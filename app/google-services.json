@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730816756452",
+    "project_id": "resolib-7c2a2",
+    "storage_bucket": "resolib-7c2a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730816756452:android:070523e6391b8a9677caf1",
+        "android_client_info": {
+          "package_name": "com.dinesh.resolib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730816756452-bm6cnloh1q049nfs8lpbjvmru547p5hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJag4p9mKdULLOlKI9qujsbjNRdhdxps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730816756452-bm6cnloh1q049nfs8lpbjvmru547p5hn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

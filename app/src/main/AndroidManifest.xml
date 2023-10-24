@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/resolib_modified"
+        android:label="Resolib"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ResoLib"
+        tools:targetApi="31">
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".uploadfile"
+            android:exported="false"
+            android:label="Upload" />
+        <activity
+            android:name=".BTech_pdfs_view"
+            android:exported="false"
+            android:label="Btech" />
+        <activity
+            android:name=".BDes_pdfs_view"
+            android:exported="false"
+            android:label="BDes" />
+        <activity
+            android:name=".BBA_pdfs_view"
+            android:exported="false"
+            android:label="BBA" />
+        <activity
+            android:name=".Master_pdfs_view"
+            android:exported="false"
+            android:label="Masters" />
+        <activity
+            android:name=".DashboardCardView"
+            android:exported="false"
+            android:label="Dashboard"></activity>
+        <activity android:name=".viewpdf" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false"
+            android:theme="@style/Theme.Noaction"></activity>
+        <activity
+            android:name=".Registration"
+            android:exported="true"
+            android:theme="@style/Theme.Noaction">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
